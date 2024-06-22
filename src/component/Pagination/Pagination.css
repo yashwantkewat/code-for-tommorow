@@ -1,0 +1,15 @@
+.pagination-container {
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .pagination-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .pagination-container .page-item {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
